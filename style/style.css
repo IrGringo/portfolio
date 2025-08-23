@@ -1,0 +1,36 @@
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="email"], textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    border-radius: 5px;
+} 
+
+textarea{
+    min-height: 120px;
+}
+
+button{
+    background-color: #43c223;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 50%;
+    font-weight: bold;
+}

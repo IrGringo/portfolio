@@ -1,4 +1,4 @@
-pandas==1.5.1
-streamlit==1.45.1
-plotly==6.1.2
-numerize==0.12
+pandas
+streamlit
+plotly
+numerize

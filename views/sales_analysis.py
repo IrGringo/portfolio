@@ -80,7 +80,7 @@ def combinaisons_produits():
     df_sales_comb = df_sales.drop_duplicates(subset=['Order ID'])
     df_sales_comb_freq = df_sales_comb['Grouped'].value_counts().reset_index().rename(columns={'index':'Produits'})[0:5]
     st.dataframe(df_sales_comb_freq)
-    fig_comb = px.pie(df_sales_comb_freq, values='Grouped', names='Produits')
+    fig_comb = px.pie(df_sales_comb_freq, values='count', names='Grouped')
     fig_comb.update_layout(title='Part de marche des 5 produits les plus vendus')
     st.plotly_chart(fig_comb)
 
